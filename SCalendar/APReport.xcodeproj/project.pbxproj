@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E0809B0C4A357E0AD841590 /* libPods-APReport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6294A024D7638DF4410EBEE /* libPods-APReport.a */; };
+		37BED4351E70EC6A0020A492 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BED4341E70EC6A0020A492 /* main.m */; };
+		37BED4401E70EC6A0020A492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37BED43F1E70EC6A0020A492 /* Assets.xcassets */; };
+		37BED44D1E70ED510020A492 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BED44C1E70ED510020A492 /* AppDelegate.m */; };
+		F92C353E201F14F100ECBC6D /* APAnalyzeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F92C353D201F14F100ECBC6D /* APAnalyzeController.m */; };
+		F9AE0F892020524F00329F4B /* APCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AE0F882020524F00329F4B /* APCalendarView.m */; };
+		F9AE0FA32020757D00329F4B /* XMCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AE0F962020757D00329F4B /* XMCalendarCell.m */; };
+		F9AE0FA42020757E00329F4B /* XMCalendarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9AE0F972020757D00329F4B /* XMCalendarCell.xib */; };
+		F9AE0FA52020757E00329F4B /* XMCalendarDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AE0F992020757D00329F4B /* XMCalendarDataSource.m */; };
+		F9AE0FA62020757E00329F4B /* XMCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AE0F9B2020757D00329F4B /* XMCalendarManager.m */; };
+		F9AE0FA72020757E00329F4B /* XMCalendarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AE0F9D2020757D00329F4B /* XMCalendarModel.m */; };
+		F9AE0FA82020757E00329F4B /* XMCalendarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AE0F9F2020757D00329F4B /* XMCalendarTool.m */; };
+		F9AE0FAC2021909B00329F4B /* APCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9AE0FAB2021909B00329F4B /* APCalendarView.xib */; };
+		F9AE0FAE2021A70C00329F4B /* strip.png in Resources */ = {isa = PBXBuildFile; fileRef = F9AE0FAD2021A70C00329F4B /* strip.png */; };
+		F9AE0FB22021AFBE00329F4B /* APCalendarSunCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AE0FB02021AFBE00329F4B /* APCalendarSunCell.m */; };
+		F9AE0FB32021AFBE00329F4B /* APCalendarSunCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9AE0FB12021AFBE00329F4B /* APCalendarSunCell.xib */; };
+		F9F198332024099C00010E6D /* APChooseRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F198322024099C00010E6D /* APChooseRootVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		353AE20A786B372B8CC4081F /* Pods-APReport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APReport.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APReport/Pods-APReport.debug.xcconfig"; sourceTree = "<group>"; };
+		37BED4301E70EC6A0020A492 /* APReport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APReport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37BED4341E70EC6A0020A492 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37BED43F1E70EC6A0020A492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37BED4441E70EC6A0020A492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37BED44B1E70ED510020A492 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37BED44C1E70ED510020A492 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37F2875B1E7A5D45008FFFC9 /* APRPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APRPrefixHeader.pch; sourceTree = "<group>"; };
+		7C512ADB178B4B22EB4B9CE4 /* Pods-APReport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APReport.release.xcconfig"; path = "Pods/Target Support Files/Pods-APReport/Pods-APReport.release.xcconfig"; sourceTree = "<group>"; };
+		F6294A024D7638DF4410EBEE /* libPods-APReport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APReport.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92C353C201F14F100ECBC6D /* APAnalyzeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APAnalyzeController.h; sourceTree = "<group>"; };
+		F92C353D201F14F100ECBC6D /* APAnalyzeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APAnalyzeController.m; sourceTree = "<group>"; };
+		F9AE0F872020524F00329F4B /* APCalendarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APCalendarView.h; sourceTree = "<group>"; };
+		F9AE0F882020524F00329F4B /* APCalendarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APCalendarView.m; sourceTree = "<group>"; };
+		F9AE0F952020757D00329F4B /* XMCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMCalendarCell.h; sourceTree = "<group>"; };
+		F9AE0F962020757D00329F4B /* XMCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMCalendarCell.m; sourceTree = "<group>"; };
+		F9AE0F972020757D00329F4B /* XMCalendarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMCalendarCell.xib; sourceTree = "<group>"; };
+		F9AE0F982020757D00329F4B /* XMCalendarDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMCalendarDataSource.h; sourceTree = "<group>"; };
+		F9AE0F992020757D00329F4B /* XMCalendarDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMCalendarDataSource.m; sourceTree = "<group>"; };
+		F9AE0F9A2020757D00329F4B /* XMCalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMCalendarManager.h; sourceTree = "<group>"; };
+		F9AE0F9B2020757D00329F4B /* XMCalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMCalendarManager.m; sourceTree = "<group>"; };
+		F9AE0F9C2020757D00329F4B /* XMCalendarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMCalendarModel.h; sourceTree = "<group>"; };
+		F9AE0F9D2020757D00329F4B /* XMCalendarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMCalendarModel.m; sourceTree = "<group>"; };
+		F9AE0F9E2020757D00329F4B /* XMCalendarTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMCalendarTool.h; sourceTree = "<group>"; };
+		F9AE0F9F2020757D00329F4B /* XMCalendarTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMCalendarTool.m; sourceTree = "<group>"; };
+		F9AE0FAB2021909B00329F4B /* APCalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APCalendarView.xib; sourceTree = "<group>"; };
+		F9AE0FAD2021A70C00329F4B /* strip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strip.png; sourceTree = "<group>"; };
+		F9AE0FAF2021AFBE00329F4B /* APCalendarSunCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APCalendarSunCell.h; sourceTree = "<group>"; };
+		F9AE0FB02021AFBE00329F4B /* APCalendarSunCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APCalendarSunCell.m; sourceTree = "<group>"; };
+		F9AE0FB12021AFBE00329F4B /* APCalendarSunCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = APCalendarSunCell.xib; sourceTree = "<group>"; };
+		F9F198312024099C00010E6D /* APChooseRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APChooseRootVC.h; sourceTree = "<group>"; };
+		F9F198322024099C00010E6D /* APChooseRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APChooseRootVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37BED42D1E70EC6A0020A492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0809B0C4A357E0AD841590 /* libPods-APReport.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37BED4271E70EC6A0020A492 = {
+			isa = PBXGroup;
+			children = (
+				37BED4321E70EC6A0020A492 /* APReport */,
+				37BED4311E70EC6A0020A492 /* Products */,
+				68050486B9EDF0725C557E0F /* Pods */,
+				3D2939E8E6FD2CA7518F8DA7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37BED4311E70EC6A0020A492 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37BED4301E70EC6A0020A492 /* APReport.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37BED4321E70EC6A0020A492 /* APReport */ = {
+			isa = PBXGroup;
+			children = (
+				37BED44A1E70ED510020A492 /* Class */,
+				37BED4331E70EC6A0020A492 /* Supporting Files */,
+			);
+			path = APReport;
+			sourceTree = "<group>";
+		};
+		37BED4331E70EC6A0020A492 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37BED43F1E70EC6A0020A492 /* Assets.xcassets */,
+				37BED4441E70EC6A0020A492 /* Info.plist */,
+				37BED4341E70EC6A0020A492 /* main.m */,
+				37F2875B1E7A5D45008FFFC9 /* APRPrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37BED44A1E70ED510020A492 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				37BED44B1E70ED510020A492 /* AppDelegate.h */,
+				37BED44C1E70ED510020A492 /* AppDelegate.m */,
+				F9F198312024099C00010E6D /* APChooseRootVC.h */,
+				F9F198322024099C00010E6D /* APChooseRootVC.m */,
+				F92C3535201F140900ECBC6D /* AppAnalyze */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		3D2939E8E6FD2CA7518F8DA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6294A024D7638DF4410EBEE /* libPods-APReport.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68050486B9EDF0725C557E0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				353AE20A786B372B8CC4081F /* Pods-APReport.debug.xcconfig */,
+				7C512ADB178B4B22EB4B9CE4 /* Pods-APReport.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F92C3535201F140900ECBC6D /* AppAnalyze */ = {
+			isa = PBXGroup;
+			children = (
+				F9AE0F8620204FC100329F4B /* View */,
+				F9AE0F8520204FAA00329F4B /* Controller */,
+			);
+			path = AppAnalyze;
+			sourceTree = "<group>";
+		};
+		F9AE0F8520204FAA00329F4B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F92C353C201F14F100ECBC6D /* APAnalyzeController.h */,
+				F92C353D201F14F100ECBC6D /* APAnalyzeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F9AE0F8620204FC100329F4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F9AE0F942020757D00329F4B /* CalendarView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F9AE0F942020757D00329F4B /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				F9AE0FAD2021A70C00329F4B /* strip.png */,
+				F9AE0F872020524F00329F4B /* APCalendarView.h */,
+				F9AE0F882020524F00329F4B /* APCalendarView.m */,
+				F9AE0FAB2021909B00329F4B /* APCalendarView.xib */,
+				F9AE0FB42021B7E800329F4B /* cell */,
+				F9AE0F982020757D00329F4B /* XMCalendarDataSource.h */,
+				F9AE0F992020757D00329F4B /* XMCalendarDataSource.m */,
+				F9AE0F9A2020757D00329F4B /* XMCalendarManager.h */,
+				F9AE0F9B2020757D00329F4B /* XMCalendarManager.m */,
+				F9AE0F9C2020757D00329F4B /* XMCalendarModel.h */,
+				F9AE0F9D2020757D00329F4B /* XMCalendarModel.m */,
+				F9AE0F9E2020757D00329F4B /* XMCalendarTool.h */,
+				F9AE0F9F2020757D00329F4B /* XMCalendarTool.m */,
+			);
+			path = CalendarView;
+			sourceTree = "<group>";
+		};
+		F9AE0FB42021B7E800329F4B /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				F9AE0F952020757D00329F4B /* XMCalendarCell.h */,
+				F9AE0F962020757D00329F4B /* XMCalendarCell.m */,
+				F9AE0F972020757D00329F4B /* XMCalendarCell.xib */,
+				F9AE0FAF2021AFBE00329F4B /* APCalendarSunCell.h */,
+				F9AE0FB02021AFBE00329F4B /* APCalendarSunCell.m */,
+				F9AE0FB12021AFBE00329F4B /* APCalendarSunCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37BED42F1E70EC6A0020A492 /* APReport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37BED4471E70EC6A0020A492 /* Build configuration list for PBXNativeTarget "APReport" */;
+			buildPhases = (
+				0D393D0B1D6D950CA38B9F1A /* [CP] Check Pods Manifest.lock */,
+				37BED42C1E70EC6A0020A492 /* Sources */,
+				37BED42D1E70EC6A0020A492 /* Frameworks */,
+				37BED42E1E70EC6A0020A492 /* Resources */,
+				2F7586F5C30DDADC20E7EC32 /* [CP] Embed Pods Frameworks */,
+				BABF884C41517CDE58F1CB12 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APReport;
+			productName = APReport;
+			productReference = 37BED4301E70EC6A0020A492 /* APReport.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37BED4281E70EC6A0020A492 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AP;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Shanghai Aopai Data Technology Co., Ltd.";
+				TargetAttributes = {
+					37BED42F1E70EC6A0020A492 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 37BED42B1E70EC6A0020A492 /* Build configuration list for PBXProject "APReport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37BED4271E70EC6A0020A492;
+			productRefGroup = 37BED4311E70EC6A0020A492 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37BED42F1E70EC6A0020A492 /* APReport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37BED42E1E70EC6A0020A492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37BED4401E70EC6A0020A492 /* Assets.xcassets in Resources */,
+				F9AE0FA42020757E00329F4B /* XMCalendarCell.xib in Resources */,
+				F9AE0FB32021AFBE00329F4B /* APCalendarSunCell.xib in Resources */,
+				F9AE0FAE2021A70C00329F4B /* strip.png in Resources */,
+				F9AE0FAC2021909B00329F4B /* APCalendarView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D393D0B1D6D950CA38B9F1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APReport-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F7586F5C30DDADC20E7EC32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APReport/Pods-APReport-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BABF884C41517CDE58F1CB12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-APReport/Pods-APReport-resources.sh",
+				"${PODS_ROOT}/iOS-Tools/iOS-Tools/ProgressHUD/Resources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APReport/Pods-APReport-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37BED42C1E70EC6A0020A492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F198332024099C00010E6D /* APChooseRootVC.m in Sources */,
+				37BED44D1E70ED510020A492 /* AppDelegate.m in Sources */,
+				F9AE0FA52020757E00329F4B /* XMCalendarDataSource.m in Sources */,
+				37BED4351E70EC6A0020A492 /* main.m in Sources */,
+				F9AE0FB22021AFBE00329F4B /* APCalendarSunCell.m in Sources */,
+				F92C353E201F14F100ECBC6D /* APAnalyzeController.m in Sources */,
+				F9AE0FA72020757E00329F4B /* XMCalendarModel.m in Sources */,
+				F9AE0FA32020757D00329F4B /* XMCalendarCell.m in Sources */,
+				F9AE0F892020524F00329F4B /* APCalendarView.m in Sources */,
+				F9AE0FA82020757E00329F4B /* XMCalendarTool.m in Sources */,
+				F9AE0FA62020757E00329F4B /* XMCalendarManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		37BED4451E70EC6A0020A492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37BED4461E70EC6A0020A492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37BED4481E70EC6A0020A492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 353AE20A786B372B8CC4081F /* Pods-APReport.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = APReport/APRPrefixHeader.pch;
+				INFOPLIST_FILE = APReport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalender.china;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		37BED4491E70EC6A0020A492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C512ADB178B4B22EB4B9CE4 /* Pods-APReport.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = APReport/APRPrefixHeader.pch;
+				INFOPLIST_FILE = APReport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalender.china;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37BED42B1E70EC6A0020A492 /* Build configuration list for PBXProject "APReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37BED4451E70EC6A0020A492 /* Debug */,
+				37BED4461E70EC6A0020A492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37BED4471E70EC6A0020A492 /* Build configuration list for PBXNativeTarget "APReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37BED4481E70EC6A0020A492 /* Debug */,
+				37BED4491E70EC6A0020A492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37BED4281E70EC6A0020A492 /* Project object */;
+}
